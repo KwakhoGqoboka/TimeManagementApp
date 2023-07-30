@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698079580443",
+    "project_id": "timetracker-79d9f",
+    "storage_bucket": "timetracker-79d9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698079580443:android:4cf8d30ab16f962d34c3be",
+        "android_client_info": {
+          "package_name": "com.example.design"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgfDw1pDuzhQED5fplGkDPV64NxCM8cns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

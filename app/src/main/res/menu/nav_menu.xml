@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home"
+        android:title="HOME" />
+    <item
+        android:id="@+id/ic_categories"
+        android:icon="@drawable/ic_catergories"
+        android:title="CATEGORIES" />
+    <item
+        android:id="@+id/ic_time"
+        android:icon="@drawable/ic_time"
+        android:title="TIME SHEET" />
+    <item
+        android:id="@+id/ic_goals"
+        android:icon="@drawable/ic_goals"
+        android:title="DAILY GOALS" />
+    <item
+        android:id="@+id/ic_graph"
+        android:icon="@drawable/ic_graph"
+        android:title="GRAPH" />
+</menu>

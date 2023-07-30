@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Timesheet Entry</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select">Select Project</string>
+    <string-array name="menu_options">
+        <item>Select a timesheet entry</item>
+        <item>OPSC</item>
+        <!-- Add more options as needed -->
+    </string-array>
+    <string-array name="menu_options1">
+        <item>Select a category</item>
+        <item>Varsity Work</item>
+        <!-- Add more options as needed -->
+    </string-array>
+</resources>

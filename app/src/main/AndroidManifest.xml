@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DESIGN"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ActivityGraph"
+            android:label="Activity Graph" />
+        <activity
+            android:name=".game"
+            android:label="game" />
+        <activity
+            android:name=".KWAKS"
+            android:exported="false" />
+        <activity
+            android:name=".Progress_layout"
+            android:exported="false" />
+        <activity
+            android:name=".Catergory_details"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressCheck"
+            android:exported="false" />
+        <activity
+            android:name=".TOTAL_HOURS"
+            android:exported="false" />
+        <activity
+            android:name=".start_time"
+            android:exported="false" />
+        <activity
+            android:name=".addTimesheet"
+            android:exported="false" />
+        <activity
+            android:name=".SelectingTimesheetEntry"
+            android:exported="false" />
+        <activity
+            android:name=".Tester"
+            android:exported="false" />
+        <activity
+            android:name=".timesheetEntries"
+            android:exported="false" />
+        <activity
+            android:name=".catergories"
+            android:exported="false" />
+        <activity
+            android:name=".AddCatergory"
+            android:exported="false" />
+        <activity
+            android:name=".addCatergory"
+            android:exported="false" />
+        <activity
+            android:name=".CreateCatergories"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoadingScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
